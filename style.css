@@ -1,0 +1,198 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.fixed {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
+  position: absolute;
+}
+
+.menu-item {
+  background: crimson;
+  height: 75px;
+}
+
+.menu-item ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: end;
+  padding: 15px;
+}
+
+.menu-item ul li {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.menu-item ul li a {
+  font-size: 1.2rem;
+  padding: 0px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-item ul li a:hover {
+  color: chartreuse;
+}
+
+.menu-item ul li i {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("image/jackets.jpeg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content h1 {
+  color: white;
+}
+
+.content span {
+  color: crimson;
+}
+
+.content button {
+  display: block;
+  margin: auto;
+  padding: 10px 30px;
+  outline: none;
+  border: 2px solid crimson;
+  border-radius: 5px;
+  color: white;
+  background: crimson;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.content button:hover {
+  border: 2px solid white;
+  background: transparent;
+}
+
+h1 {
+  text-align: center;
+  color: crimson;
+  padding: 50px 0px;
+}
+
+#padding {
+  padding-bottom: 100px;
+}
+
+#color {
+  height: 90vh;
+  width: 100%;
+  background-color: azure;
+  padding-bottom: 100px;
+}
+
+.container h3 {
+  color: crimson;
+  font-weight: bold;
+}
+
+.container p {
+  height: 150px;
+}
+
+.container {
+  text-align: center;
+}
+
+.container #image {
+  font-size: 35px;
+  color: white;
+  height: 75px;
+  width: 75px;
+  background-color: crimson;
+  border-radius: 100%;
+}
+
+#service {
+  padding: 50px;
+}
+
+#form {
+  height: 90vh;
+  padding-bottom: 100px;
+  background-color: azure;
+}
+
+.content-left {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-left i {
+  padding-right: 10px;
+  color: crimson;
+  font-size: 1.5rem;
+}
+
+.social-icons {
+  text-align: start;
+  color: crimson;
+  font-size: 1.5rem;
+  margin-top: 25px;
+  word-spacing: 50px;
+}
+
+.content-right h3 {
+  color: crimson;
+}
+
+.content-right input {
+  width: 65%;
+  padding: 2px;
+}
+
+.content-right textarea {
+  width: 65%;
+}
+
+.content-right button {
+  padding: 6px 15px;
+  border-radius: 5px;
+  background-color: crimson;
+  transition: 1s;
+}
+
+.content-right button:hover {
+  background: transparent;
+  color: grey;
+  border-radius: 5px;
+  border: 2px solid crimson;
+}
+
+.made {
+  padding-bottom: 50px;
+}
+
+.made h3 {
+  text-align: center;
+  background-color: crimson;
+  color: azure;
+  padding: 10px;
+}
